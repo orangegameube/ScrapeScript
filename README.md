@@ -16,12 +16,13 @@ Before utilizing this program, please install the following libraries with the f
 ##### pip install requests bs4 openpyxl pandas
 
 ## Installation
+
 1. Ensure libraries and Python are installed.
 2. Clone this repository.
 3. Run the project in your terminal using python.
 
 ## Usage
-In order to use this program, here is an example set of inputs using a sample scrape site. For testing, I recommend either another scrape test site or a wikipedia list.
+In order to use this program, here is an example set of inputs using a sample scrape site. For testing, I recommend either another scrape test site or a wikipedia list. Here is a set of demo inputs for the program using a practice scrape website and 3 different HTML classes to be scraped:
 ##### Enter the website URL: https://www.scrapethissite.com/pages/forms/
 ##### Enter HTML tags you're looking for separated by spaces (one tag for each selection of data you want: td td td
 ##### Enter the HTML classes you are looking for, again in order and one per selection. If none, type "N": name year wins
@@ -29,7 +30,8 @@ In order to use this program, here is an example set of inputs using a sample sc
 ##### Enter the title of each Excel column separated by commas: Team Name,Year,Wins
 ####
 This set of inputs will lead to the creation of an excel document that looks like this:
-![Image of Excel spreadsheet with 3 columns of information: one titled "Team Name" with every team name from the page, and so on](Images/demoImg)
+![Image of Excel spreadsheet with 3 columns of information: one titled "Team Name" with every team name from the page, and so on]
+##### ![Screenshot 2025-03-18 180342](https://github.com/user-attachments/assets/b1743e1c-5761-4811-a4f5-533a54021a2c)
 ####
 All you need to do is enter the tags and elements in order (i.e. first tag and first element are for the same data, second with second, and so forth).
 
